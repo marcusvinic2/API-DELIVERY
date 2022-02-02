@@ -1,4 +1,4 @@
 export default {
-	secret: '49c167d7cd66dc64a474c261860ba50f',
+	secret: 'codificacao',
 	expiresIn: '5d'
 }
