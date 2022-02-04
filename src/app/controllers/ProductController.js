@@ -6,7 +6,7 @@ class ProductController {
 		const schema = Yup.object().shape({
 			name: Yup.string().required(),
 			price: Yup.number().required(),
-			category: Yup.string().required(),
+			categoryId: Yup.number().required(),
 		})
 
 		try {
@@ -16,12 +16,12 @@ class ProductController {
 		}
 
 		const { filename: path } = request.file
-		const { name, price, category } = request.body
+		const { name, price, categoryId } = request.body
 
 		const product = await Product.create({
 			name,
 			price,
-			category,
+			categoryId,
 			path,
 		})
 
