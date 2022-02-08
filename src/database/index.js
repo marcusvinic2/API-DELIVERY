@@ -18,15 +18,14 @@ class Database {
 	}
 
 	mongo(){
-		this.mongoConnection = mongoose.connect(
-			'mongodb://153.92.214.229:27017/mongo-uppedidos',
+		this.mongoConection = mongoose.connect(
+			'mongodb://153.92.214.229:27017/uppedidos',
 			{
 				useNewUrlParser: true,
 				useUnifiedTopology: true,
 			}
 			)
 	}
-
 }
 
 

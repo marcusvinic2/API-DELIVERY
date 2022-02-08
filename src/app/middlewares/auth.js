@@ -16,7 +16,8 @@ export default (request, response, next) => {
 				throw new Error()
 			}
 			request.userId = decoded.id
-			next()
+			request.userName = decoded.name
+			return next()
 		})
 	} catch(err){
 		return response.status(401).json({ error: 'Token invalido'})

@@ -1348,10 +1348,10 @@
   optionalDependencies:
     "saslprep" "^1.0.3"
 
-"mongoose@^6.2.0":
-  "integrity" "sha512-kimHjks1FC4HkqM4FVNWxtGor6wYelHgl6eJ6GJmmJvMCI4FNGLwFceSL6hs7dHLZJnxIyGVqQjT/XTXCbjzpA=="
-  "resolved" "https://registry.npmjs.org/mongoose/-/mongoose-6.2.0.tgz"
-  "version" "6.2.0"
+"mongoose@^6.2.1":
+  "integrity" "sha512-VxY1wvlc4uBQKyKNVDoEkTU3/ayFOD//qVXYP+sFyvTRbAj9/M53UWTERd84pWogs2TqAC6DTvZbxCs2LoOd3Q=="
+  "resolved" "https://registry.npmjs.org/mongoose/-/mongoose-6.2.1.tgz"
+  "version" "6.2.1"
   dependencies:
     "bson" "^4.2.2"
     "kareem" "2.3.3"
@@ -1359,7 +1359,6 @@
     "mpath" "0.8.4"
     "mquery" "4.0.2"
     "ms" "2.1.2"
-    "regexp-clone" "1.0.0"
     "sift" "13.5.2"
 
 "mongose@^0.0.2-security":
@@ -1784,11 +1783,6 @@
   "integrity" "sha512-p3VT+cOEgxFsRRA9X4lkI1E+k2/CtnKtU4gcxyaCUreilL/vqI6CdZ3wxVUx3UOUg+gnUOQQcRI7BmSI656MYA=="
   "resolved" "https://registry.npmjs.org/regenerator-runtime/-/regenerator-runtime-0.13.9.tgz"
   "version" "0.13.9"
-
-"regexp-clone@1.0.0":
-  "integrity" "sha512-TuAasHQNamyyJ2hb97IuBEif4qBHGjPHBS64sZwytpLEqtBQ1gPJTnOaQ6qmpET16cK14kkjbazl6+p0RRv0yw=="
-  "resolved" "https://registry.npmjs.org/regexp-clone/-/regexp-clone-1.0.0.tgz"
-  "version" "1.0.0"
 
 "registry-auth-token@^4.0.0":
   "integrity" "sha512-6gkSb4U6aWJB4SF2ZvLb76yCBjcvufXBqvvEx1HbmKPkutswjW1xNVRY0+daljIYRbogN7O0etYSlbiaEQyMyw=="
